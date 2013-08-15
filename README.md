@@ -2,3 +2,10 @@ connect-tedious [![Build Status](https://secure.travis-ci.org/mcartoixa/connect-
 ===============
 
 Connect session store for SQL Server, using Tedious.
+
+
+
+
+## License
+
+View the [LICENSE](https://github.com/mcartoixa/connect-tedious/blob/master/LICENSE) file
