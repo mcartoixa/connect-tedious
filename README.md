@@ -42,15 +42,15 @@ var app = express.createServer()
 ### Syntax
 * Class `TediousStore`
   * `new TediousStore(options)`
-    * `options`: Object
-      * `config': Object The same configuration that would be used to [create a tedious Connection](http://pekim.github.com/tedious/api-connection.html#function_newConnection).
-      * `tableName`: String The table name. Defaults to `[dbo].[Sessions]`.
-      * `sidColumnName`: String The session Id column name. Defaults to `[Sid]`.
-      * `sessColumnName`: String The session content column name. Defaults to `[Sess]`.
-      * `expiresColumnName`: String The session expiration column name. Defaults to `[Expires]`.
-      * `minConnections`: Number The minimum number of connections to keep in the pool. Defaults to `0`.
-      * `maxConnections`: Number The maximum number of connections to keep in the pool. Defaults to `100`.
-      * `idleTimeout`: Number The Number of milliseconds before closing an unused connection. Defaults to `30000`.
+    * `options`: *Object*
+      * `config': *Object* The same configuration that would be used to [create a tedious Connection](http://pekim.github.com/tedious/api-connection.html#function_newConnection).
+      * `tableName`: *String* The table name. Defaults to `[dbo].[Sessions]`.
+      * `sidColumnName`: *String* The session Id column name. Defaults to `[Sid]`.
+      * `sessColumnName`: *String* The session content column name. Defaults to `[Sess]`.
+      * `expiresColumnName`: *String* The session expiration column name. Defaults to `[Expires]`.
+      * `minConnections`: *Number* The minimum number of connections to keep in the pool. Defaults to `0`.
+      * `maxConnections`: *Number* The maximum number of connections to keep in the pool. Defaults to `100`.
+      * `idleTimeout`: *Number* The number of milliseconds before closing an unused connection. Defaults to `30000`.
 
 ## License
 
