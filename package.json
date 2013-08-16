@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "author": "Mathieu Cartoixa",
   "main": "lib/connect-tedious",
-  "keywords": ["memcached", "connection", "session", "store", "cache"],
+  "keywords": ["sql-server", "tds", "connection", "session", "store"],
   "dependencies": {
-    "tedious": ">=0.1.x"
+    "tedious": ">=0.1.x",
+    "tedious-connection-pool": ">=0.1.x"
   },
   "devDependencies": {
     "connect": ">=1.0.0"
