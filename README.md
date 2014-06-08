@@ -1,5 +1,7 @@
-connect-tedious [![Build Status](https://secure.travis-ci.org/mcartoixa/connect-tedious.png)](https://travis-ci.org/mcartoixa/connect-tedious)
-===============
+#connect-tedious
+[![Build Status](https://secure.travis-ci.org/mcartoixa/connect-tedious.png)](https://travis-ci.org/mcartoixa/connect-tedious)
+[![Dependency Status](https://david-dm.org/mcartoixa/connect-tedious.png)](https://david-dm.org/mcartoixa/connect-tedious)
+[![NPM version](https://badge.fury.io/js/connect-tedious.svg)](http://badge.fury.io/js/connect-tedious)
 
 [connect](https://github.com/senchalabs/connect) session store for SQL Server, using [tedious](http://github.com/pekim/tedious).
 
