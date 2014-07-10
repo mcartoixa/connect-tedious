@@ -10,7 +10,7 @@
 The simplest sample requires a SQL Server 2008+ database with a table created as follows
 ```javascript
 CREATE TABLE [dbo].[Sessions](
-  [Sid] varchar(24) NOT NULL
+  [Sid] varchar(255) NOT NULL
     CONSTRAINT [PK_Sessions] PRIMARY KEY CLUSTERED ([Sid] ASC),
   [Expires] datetimeoffset NOT NULL,
   [Sess] nvarchar(MAX) NULL
@@ -45,7 +45,9 @@ var app = express.createServer()
 
 Class `TediousStore`:
 * `new TediousStore(options)`
+
   * `options`: *Object*
+  
     * `config`: *Object* The same configuration that would be used to [create a tedious Connection](http://pekim.github.com/tedious/api-connection.html#function_newConnection).
     * `tableName`: *String* The table name. Defaults to `[dbo].[Sessions]`.
     * `sidColumnName`: *String* The session Id column name. Defaults to `[Sid]`.
