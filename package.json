@@ -7,7 +7,8 @@
   "keywords": ["sql-server", "tds", "connection", "session", "store"],
   "dependencies": {
     "tedious": ">=0.1.x",
-    "tedious-connection-pool": ">=0.1.x"
+    "tedious-connection-pool": ">=0.1.x",
+    "debug": ">=1.0.x"
   },
   "devDependencies": {
     "connect": ">=1.0.0"
