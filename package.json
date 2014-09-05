@@ -6,6 +6,7 @@
   "main": "lib/connect-tedious",
   "keywords": ["sql-server", "tds", "connection", "session", "store"],
   "dependencies": {
+    "node-connection-string-builder": "0.0.1",
     "tedious": ">=0.1.x",
     "tedious-connection-pool": ">=0.1.x",
     "debug": ">=1.0.x"
