@@ -1,7 +1,7 @@
 {
   "name": "connect-tedious",
   "description": "Connect session store for SQL Server, using Tedious.",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "author": "Mathieu Cartoixa",
   "main": "lib/connect-tedious",
   "keywords": ["sql-server", "tds", "connection", "session", "store"],
@@ -15,7 +15,7 @@
     "connect": ">=1.0.0"
   },
   "engines": {
-    "node": ">=0.8.x"
+    "node": ">=0.10.x"
   },
   "repository": {
     "type": "git",
