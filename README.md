@@ -20,7 +20,8 @@ CREATE TABLE [dbo].[Sessions](
 The session store can then be created
 ```javascript
 var express = require('express');
-var TediousStore = require('connect-tedious')(express);
+var session = require('express-session');
+var TediousStore = require('connect-tedious')(session);
 
 var app = express.createServer()
     .use(express.cookieParser())
