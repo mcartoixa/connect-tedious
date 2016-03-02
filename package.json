@@ -7,7 +7,7 @@
   "keywords": ["sql-server", "tds", "connection", "session", "store"],
   "dependencies": {
     "node-connection-string-builder": "^0.0.1",
-    "tedious": "^1.13.1",
+    "tedious": "^1.13.2",
     "tedious-connection-pool": "^0.3.9",
     "debug": "^2.2.0"
   },
@@ -25,5 +25,5 @@
     {
       "type": "MIT"
     }
-  ]  
+  ]
 }
