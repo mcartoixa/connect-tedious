@@ -4,4 +4,4 @@ node_js:
   - "4"
   - "node"
 script:
-  - npm run lint -- --rule linebreak-style:[2,unix] --quiet
+  - npm run lint -- --rule no-console:0
