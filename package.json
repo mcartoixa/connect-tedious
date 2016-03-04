@@ -1,7 +1,7 @@
 {
   "name": "connect-tedious",
   "description": "Connect session store for SQL Server, using Tedious.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Mathieu Cartoixa",
   "main": "lib/connect-tedious",
   "keywords": ["sql-server", "tds", "connection", "session", "store"],
@@ -13,7 +13,9 @@
     "debug": "^2.2.0"
   },
   "devDependencies": {
-    "connect": ">=1.0.0"
+    "eslint": "^1.10.3",
+    "express-session": "*",
+    "mocha": "^2.3.4"
   },
   "engines": {
     "node": ">=0.12.x"
@@ -22,6 +24,9 @@
     "type": "git",
     "url": "git://github.com/mcartoixa/connect-tedious.git"
   },  
+  "scripts": {
+    "lint": "eslint lib/"
+  },
   "licenses": [
     {
       "type": "MIT"
