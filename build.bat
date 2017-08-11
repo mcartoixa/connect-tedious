@@ -39,7 +39,7 @@ ECHO.
 CALL npm.cmd install --loglevel info --cache tmp\npm-cache
 IF ERRORLEVEL 1 GOTO END_ERROR
 ECHO.
-CALL npm.cmd run-script %TARGET% --dev
+CALL npm.cmd run-script %TARGET%
 IF ERRORLEVEL 1 GOTO END_ERROR
 
 GOTO END

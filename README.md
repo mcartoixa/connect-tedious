@@ -1,5 +1,6 @@
 #connect-tedious
-[![Build Status](https://secure.travis-ci.org/mcartoixa/connect-tedious.png)](https://travis-ci.org/mcartoixa/connect-tedious)
+
+[![Build Status](https://ci.appveyor.com/api/projects/status/lychn2r7d0cs36qa/branch/master?svg=true)](https://ci.appveyor.com/project/mcartoixa/connect-tedious/branch/master)
 [![Dependency Status](https://david-dm.org/mcartoixa/connect-tedious.png)](https://david-dm.org/mcartoixa/connect-tedious)
 [![NPM version](https://badge.fury.io/js/connect-tedious.svg)](http://badge.fury.io/js/connect-tedious)
 
