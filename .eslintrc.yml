@@ -3,16 +3,18 @@ env:
 extends: 'eslint:recommended'
 rules:
   indent:
-    - 2
+    - error
     - 4
   linebreak-style:
-    - 2
+    - error
     - windows
   no-console:
-    - 1
+    - error
+    - allow:
+      - error
   quotes:
-    - 2
+    - error
     - single
   semi:
-    - 2
+    - error
     - always
